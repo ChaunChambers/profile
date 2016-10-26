@@ -61,6 +61,17 @@ ul {
   list-style: none;
 }
 
+.social {
+  font-size: 40px;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.icon {
+  font-size:100px;
+}
+
+
 .bottom-table {
   width:100%;
   border-collapse:collapse;
@@ -162,15 +173,4 @@ box-shadow: 10px 10px 38px -14px rgba(69,69,69,1);
   height: 400px;
   width:300px;
 }
-
-.social {
-  font-size: 40px;
-  padding-right: 30px;
-  padding-top: 5px;
-}
-
-.icon {
-  font-size:100px;
-}
-
 
