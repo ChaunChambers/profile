@@ -61,6 +61,10 @@ ul {
   list-style: none;
 }
 
+.fa {
+  display: inline-block;
+}
+
 .social {
   font-size: 40px;
   padding-right: 30px;
