@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Basic info</title>
+    <title>My Profile</title>
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
@@ -20,26 +20,37 @@
 <html>
 <head>
   <meta charset="utf-8">
-    <title>Basic Page</title>
+    <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="sidebar" class="darkgrey">
+  <!--SIDEBAR DEETS HERE-->
+    <table class="sidebar-table center">
+      <tr class="sidebar-table-row"><td class="text-center"><h3><a href="#">Newsletter</a></h3><i class="fa fa-newspaper-o icon"></i></td></tr>
+      <tr class="sidebar-table-row"><td class="text-center"><h3><a href="#">Blog</a></h3><i class="fa fa-pencil icon"></i>
+</td></tr>
+      <tr class="sidebar-table-row"><td class="text-center"><h3><a href="#">About</a></h3><i class="fa fa-smile-o icon"></i>
+</td></tr>
+    </table>
+  </div>
+<div id="page-content">
     <div class="container text-center">
       <div class="card first text-center shadow round">
         <h1 class="fun-font">Chaun Chambers</h1>
-        <h2>E-Learning Entrepreneur</h2>
+        <h3 class="darkgrey top">E-Learning Entrepreneur</h3>
         <img class="mypic circle" src="facepic.jpg">
       </div>
       <div class="card second text-center shadow round-inverse">
-            <h3>Connect with me <i class="fa fa-arrow-down" aria-hidden="true"></i></h3>
+            <h3>Connect with me <i class="fa fa-arrow-down"></i></h3>
              <div class="inner text-center">
               <ul class="list-inline">
                 <li>
                   <a href="#">
-                    <i class="fa fa-facebook social"></i> Facebook
+                    <i class="fa fa-twitter social"></i> Facebook
                   </a>
                 </li>
                 <li>
@@ -49,14 +60,14 @@
                 </li>
                 <li>
                   <a href="#">
-                    <i class="fa fa-twitter social"></i> Twitter
+                    <i class="fa fa-snapchat social"></i> Twitter
                   </a>
                 </li>
               </ul>
             </div>
         </div>
         <div class="card third text-center round-inverse">
-        <table>
+        <table class="bottom-table">
           <tr>
             <th><h3>Favourite Quotes</h3></th>
             <th><h3>Who said it?</h3></th>
@@ -75,6 +86,7 @@
           </tr>
         </table>
         </div>
-    <div/>
+      </div>
+    </div>
   </body>
 </html>
